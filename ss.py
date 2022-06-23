@@ -70,6 +70,7 @@ def word(a):
     print(change)
 word("school")
 word("She is playing")
+word("wearehappytobeintheworld")
       
 
 
