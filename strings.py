@@ -29,17 +29,29 @@ print(remove_duplicate(s))
 #     w=a[end],a[start]
 #     print(k.join(a))
 
-a="I am Akirachix"
-a.split()
-start=0
-end=len(a)-1
-while start<end:
-    a[start],a[end]=a[end],[start]
+# a="I am Akirachix"
+# a.split()
+# start=0
+# end=len(a)-1
+# while start<end:
+#     a[start],a[end]=a[end],[start]
+#     start+=1
+#     end-=1
+#     b=""
+#     new=b.join(a)
+#     print(new)
+
+def word(a):
+  d=a.split()
+  start=0
+  end=len(d)-1
+  while start<end:
+    d[start],d[end]=d[end],d[start]
     start+=1
     end-=1
-    b=""
-    new=a.join(b)
-    print(new)
+    b=' '
+  print(b.join(d))
+word("i am AkiraChix")     
 
 
 
