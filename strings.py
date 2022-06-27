@@ -51,7 +51,9 @@ def word(a):
     end-=1
     b=' '
   print(b.join(d))
-word("i am AkiraChix")     
+word("i am AkiraChix")
+
+
 
 
 
