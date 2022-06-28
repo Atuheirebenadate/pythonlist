@@ -71,7 +71,25 @@ def word(a):
 word("school")
 word("She is playing")
 word("wearehappytobeintheworld")
-      
+
+#  Given a list of strings check the palindrome.
+def palindrome(x):
+
+    start=0
+    end=len(x)-1
+    for p in x:
+        if p[start]!=p[end]:
+             start +=1
+             end -=1
+
+        print(f"{p}is not a palindrome")
+    else:
+        start +=1
+        end -=1
+        print(f"{p}is a palindrome")
+palindrome(["mama","teacher","level","wisdom"])       
+
+                 
 
 
 
